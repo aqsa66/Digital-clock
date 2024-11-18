@@ -1,0 +1,43 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background with aesthetic gradient */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(145deg, #e96443, #904e95);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Clock container with glassmorphism effect */
+.clock-container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 40px 60px;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+}
+
+/* Time display with soft glow effect */
+.time {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 0 4px 20px rgba(255, 255, 255, 0.4);
+}
+
+/* Date display with a softer style */
+.date {
+    font-size: 1.4rem;
+    margin-top: 15px;
+    color: #f0f0f0;
+    opacity: 0.8;
+}
